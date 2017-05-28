@@ -1,8 +1,18 @@
 <?xml version="1.0"?>
 <Robot name="2Rplanar">
   <Joints>
-  <joint name="joint1" id="1" alphai="0" ai="200" di="0" theta="var_0" />
-  <joint name="joint2" id="2" alphai="0" ai="200" di="0" theta="var_0" />
+  <joint name="theta1" id="1" alphai="0" ai="0" di="200" theta="var_1" />
+  <joint name="delta2" id="2" alphai="-pi/2" ai="var_" di="var_2" theta="-pi/2" />
+  <joint name="delta3" id="3" alphai="0" ai="0" di="var_3" theta="0" />
+  <joint name="theta4" id="4" alphai="pi/2" ai="200" di="0" theta="var_4" />
   </Joints>
 </Robot>
 
+<! --
+
+var_1 = theta1
+var_2 = delta2, = L1 + L2* + L2
+var_3 = delta3, = L3 + L3*
+var_4 = theta4
+
+-->
